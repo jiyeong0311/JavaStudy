@@ -22,5 +22,11 @@ public class _Quiz_6 {
         System.out.println("이름 : " + getHiddenData(phone, 9));
     }
 
+String board = "번호,제목,내용,글쓴이";
+String[] arr = board.split(",");
+
+
+
 
 }
+
