@@ -52,3 +52,4 @@ public class Ex11_01 {
         System.out.println("자동차3의 색상은 " + myCar3.color + "이며, 현재 속도는 " + myCar3.speed + "km 입니다.");
     }
 }
+
