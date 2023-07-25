@@ -1,24 +1,19 @@
-package chap_07;
-abstract class Car14 {
-    int speed;
-    String color;
-
-    void upSpeed(int speed){
-        this.speed = speed;
-    }
+package chap_12;
+interface Car15 {
+    static final int CAR_COUNT = 0;
     abstract void work();
 }
-class Sedan8 extends Car14 {
-    void work(){
+class Sedan9 implements Car15 {
+    public void work(){
         System.out.println("승용차가 사람을 태우고 있습니다.");
     }
 }
-class Truck4 extends Car14 {
-    void work(){
+class Truck5 implements Car15{
+    public void work(){
         System.out.println("트럭이 짐을 싣고 있습니다.");
     }
 }
-public class Ex12_09 {
+public class Ex12_10 {
     public static void main(String[] args) {
         Sedan8 sedan1 = new Sedan8();
         sedan1.work();

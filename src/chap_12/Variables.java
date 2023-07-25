@@ -1,4 +1,4 @@
-package chap_07;
+package chap_12;
 
 public class Variables {
     // 클래스 영역

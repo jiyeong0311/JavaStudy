@@ -1,4 +1,4 @@
-package chap_07;
+package chap_12;
 
 public class Card {
     // 인스턴스 변수 (개별 속성, iv)

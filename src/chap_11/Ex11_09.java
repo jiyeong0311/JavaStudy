@@ -1,4 +1,4 @@
-package chap_07;
+package chap_11;
 
 class Calc {
     void addValue (double v1, double v2){

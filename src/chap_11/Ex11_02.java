@@ -1,9 +1,9 @@
-package chap_07;
+package chap_11;
 
-class Car2 {
+class Car1 {
     // 자동차의 필드
-    private String color;
-    private int speed;
+    String color;
+    int speed;
 
     // 자동차의 메소드
     void upSpeed (int value) {
@@ -26,26 +26,18 @@ class Car2 {
         return speed;
     }
 
-    void setColor (String color)  {
-        this.color = color;
-    }
-
-    void setSpeed (int speed)  {
-        this.speed = speed;
-    }
-
-
 }
 
-public class Ex11_03 {
+public class Ex11_02 {
     public static void main(String[] args) {
-        Car2 myCar1 = new Car2();
-        myCar1.setColor("빨강");
-        myCar1.setSpeed(0);
+        Car1 myCar1 = new Car1();
+        myCar1.color = "빨간색";
+        myCar1.speed = 0;
 
 
         // 메소드 호출하기
         myCar1.upSpeed(30);
+        System.out.println("자동차1의 색상은 " + myCar1.color + "이며, 현재 속도는 " + myCar1.speed + "km 입니다.");
         System.out.println("자동차1의 색상은 " + myCar1.getColor() + "이며, 현재 속도는 " + myCar1.getSpeed() + "km 입니다.");
 
 

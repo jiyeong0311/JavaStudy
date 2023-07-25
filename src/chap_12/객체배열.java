@@ -1,4 +1,4 @@
-package chap_07;
+package chap_12;
 
 public class 객체배열 {
     public static void main(String[] args) {
